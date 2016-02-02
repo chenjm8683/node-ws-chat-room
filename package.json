@@ -1,8 +1,8 @@
 {
   "name": "webrtc_js",
   "version": "0.0.1",
-  "description": "A basic webrtc chat app using Node.js",
-  "main": "start.js",
+  "description": "A basic websocket chatroom app using Node.js, ws",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
   "author": "Colin Chen",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "ws": "~1.0.1"
+    "ws": "~1.0.1",
+    "express": "~4.13.4"
   }
 }
