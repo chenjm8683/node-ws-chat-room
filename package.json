@@ -12,7 +12,6 @@
   "author": "Colin Chen",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "ws": "~1.0.1",
-    "express": "~4.13.4"
+    "ws": "~1.0.1"
   }
 }
